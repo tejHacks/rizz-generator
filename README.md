@@ -7,13 +7,13 @@ Need some smooth lines to break the ice? This little app serves you random **Riz
 
 ## 🚀 Live Demo
 
-👉 [Try it here](https://your-deployment-link.com)
+👉 [Try it here](https://rizz-generator.vercel.app/)
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-> *(Add your screenshots or a GIF demo here)*
+> *![Rizz App Screenshot](rizz.jpg)*
 
 ---
 
@@ -41,14 +41,14 @@ Need some smooth lines to break the ice? This little app serves you random **Riz
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/yourusername/rizz-generator.git
+   git clone https://github.com/tejHacks/rizz-generator.git
    cd rizz-generator
    ```
 
 2. Install dependencies:
 
    ```bash
-   npm install
+   npm install or pnpm install
    ```
 
 3. Start the dev server:
@@ -69,12 +69,4 @@ Need some smooth lines to break the ice? This little app serves you random **Riz
 
 Cooked by [@tejthedev](https://github.com/tejHacks) 🍳
 
-* 🐦 Twitter: [@tejthedev](https://twitter.com/tejthedev)
-
----
-
-⚡ Have fun testing your pickup game — just don’t blame me if it works too well 😏.
-
----
-
-Do you want me to also give you a **sample screenshot mockup section** (like with Markdown image syntax + placeholders), so you can just drop in your images once you deploy and take screenshots?
+* 🐦 Twitter: [@OlatejuOlamid10](https://x.com/OlatejuOlamid10)
