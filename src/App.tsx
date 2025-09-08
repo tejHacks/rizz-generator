@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Copy, RefreshCcw } from "lucide-react"; // icon library
 import {motion, AnimatePresence} from 'framer-motion';
   // import {  WhatsApp, Facebook, TwitterIcon, } from "lucide-react";
+import { RefreshCcw, Copy, MessageCircle, Twitter, Facebook } from "lucide-react";
 
 type RizzCategory = "cute" | "funny" | "spicy" | "edgy";
 
@@ -524,7 +524,7 @@ const App = () => {
 
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-yellow-300 via-yellow-400 to-orange-500 p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-yellow-300 via-yellow-400 to-orange-500 p-6">
       <div className="w-full max-w-2xl bg-white/20 backdrop-blur-lg border border-white/30 rounded-3xl shadow-2xl p-8 animate-fade-in">
         
         {/* Title */}
@@ -563,9 +563,8 @@ const App = () => {
             </span>
           )}
         </div>
-
-    {/* Buttons */}
-<div className="grid grid-cols-2 gap-4">
+{/* Buttons */}
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
   <button
     onClick={getRandomRizz}
     className="flex items-center justify-center gap-2 py-3 px-6 bg-gradient-to-r from-orange-500 to-yellow-600 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition-transform"
@@ -585,7 +584,7 @@ const App = () => {
 </div>
 
 {/* Social Share Buttons */}
-<div className="grid grid-cols-3 gap-4 mt-4">
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
   <button
     onClick={() => {
       if (!currentRizz) return;
@@ -595,7 +594,7 @@ const App = () => {
     }}
     className="flex items-center justify-center gap-2 py-3 px-6 bg-green-500 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition-transform"
   >
-    WhatsApp
+    <MessageCircle className="w-5 h-5" /> WhatsApp
   </button>
 
   <button
@@ -607,7 +606,7 @@ const App = () => {
     }}
     className="flex items-center justify-center gap-2 py-3 px-6 bg-sky-500 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition-transform"
   >
-    Twitter
+    <Twitter className="w-5 h-5" /> Twitter
   </button>
 
   <button
@@ -618,7 +617,7 @@ const App = () => {
     }}
     className="flex items-center justify-center gap-2 py-3 px-6 bg-blue-700 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition-transform"
   >
-    Facebook
+    <Facebook className="w-5 h-5" /> Facebook
   </button>
 </div>
 
