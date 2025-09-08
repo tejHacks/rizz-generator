@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Copy, RefreshCcw } from "lucide-react"; // icon library
 import {motion, AnimatePresence} from 'framer-motion';
   // import {  WhatsApp, Facebook, TwitterIcon, } from "lucide-react";
