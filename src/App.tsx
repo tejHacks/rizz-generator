@@ -529,7 +529,7 @@ const App = () => {
         
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-gray-900 mb-8 drop-shadow-md">
-          🎤 Rizz Generator
+          🎤 Rizz Me
         </h1>
 
         {/* Rizz Display */}
